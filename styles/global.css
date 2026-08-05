@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-
 * {
   margin: 0;
   padding: 0;
@@ -7,8 +5,6 @@
 }
 
 :root {
-  font-family: 'Poppins', sans-serif;
-
   /* Cor da Marca */
   --brand-color: #ef5f4c;
 
@@ -34,4 +30,20 @@ body {
   font: var(--text);
   color: var(--text-color-secondary);
   background-color: var(--background-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #ef5f4c;
+  text-decoration: underline;
+}
+
+.container {
+  padding-inline: 32px;
+  max-width: 1280;
+  margin-inline: auto;
 }
